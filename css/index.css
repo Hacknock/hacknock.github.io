@@ -3,27 +3,7 @@ body {
   padding: 0;
   background-color: #e7ebed;
 }
-header {
-  /* width: 100%; */
-  height: 70px;
-  display: flex;
-  background-color: white;
-}
-img.logo {
-  margin-left: 40px;
-  margin-right: auto;
-  align-self: center;
-  height: 30px;
-}
-a.link_menu {
-  margin-right: 40px;
-  align-self: center;
-  text-decoration: none;
-  color: #000;
-}
-a.link_menu:hover {
-  color: #00c853;
-}
+
 section.index_img {
   width: 100%;
   height: calc(100vh - 130px);
@@ -31,6 +11,7 @@ section.index_img {
   background-size: cover;
   background-position: center center;
 }
+
 p.catch {
   margin: 0;
   padding-top: 50px;
@@ -39,6 +20,7 @@ p.catch {
   color: #fff;
   text-shadow: 5px 5px 5px #000000ac;
 }
+
 p.desc {
   margin: 0;
   padding-top: 20px;
@@ -46,11 +28,4 @@ p.desc {
   font-size: 20px;
   color: #fff;
   text-shadow: 5px 5px 5px #000000ac;
-}
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 40px;
-  height: 60px;
-  line-height: 60px;
 }

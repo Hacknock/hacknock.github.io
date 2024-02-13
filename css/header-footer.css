@@ -1,0 +1,33 @@
+/* header */
+header {
+  height: 70px;
+  display: flex;
+  background-color: white;
+}
+
+img.logo {
+  margin-left: 40px;
+  margin-right: auto;
+  align-self: center;
+  height: 30px;
+}
+
+a.link_menu {
+  margin-right: 40px;
+  align-self: center;
+  text-decoration: none;
+  color: #000;
+}
+
+a.link_menu:hover {
+  color: #00c853;
+}
+
+/* footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  height: 60px;
+  line-height: 60px;
+}
